@@ -1,0 +1,17 @@
+Student Information Report
+Student Name: Emma Carter
+Roll Number: CS2025001
+Program: B.Sc. Computer Science
+Year: 3rd Year
+Email: emma.carter@college.edu
+Phone: (555) 123-4567
+Project Title: AI-Based Campus Security Monitoring
+
+Student Name: Ryan Patel
+Roll Number: EE2025002
+Program: B.Tech. Electrical Engineering
+Year: 4th Year
+Email: ryan.patel@college.edu
+Phone: (555) 987-6543
+Project Title: IoT-Based Smart Energy Meter
+

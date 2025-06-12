@@ -1,0 +1,14 @@
+Student Project Report
+Project Title: AI-Based Campus Security Monitoring
+Student: Emma Carter (CS2025001)
+Objective:
+To develop an AI system that monitors live CCTV feeds across the campus and detects unusual behavior patterns or unauthorized access.
+Tools & Technologies: Python, OpenCV, TensorFlow, Raspberry Pi
+Project Status: Completed
+
+Project Title: IoT-Based Smart Energy Meter
+Student: Ryan Patel (EE2025002)
+Objective:
+To design and implement an IoT-enabled energy meter that provides real-time electricity usage tracking and remote control via a mobile app.
+Tools & Technologies: Arduino, ESP32, Blynk App, Embedded C
+Project Status: In Progress

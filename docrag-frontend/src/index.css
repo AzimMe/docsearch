@@ -1,0 +1,103 @@
+:root {
+  /* FONTS - Change these to customize typography */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* COLORS - Customize your color scheme */
+  color-scheme: dark; /* Force dark mode or change to 'light' */
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #111827; /* Darker background for chat app */
+
+  /* PERFORMANCE */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* LINKS - Customize link colors */
+a {
+  font-weight: 500;
+  color: #60a5fa; /* Lighter blue for dark theme */
+  text-decoration: inherit;
+}
+a:hover {
+  color: #93c5fd;
+}
+
+/* BODY - IMPORTANT: Remove centering for full-screen chat */
+body {
+  margin: 0;
+  padding: 0;
+  /* Remove these lines that center content: */
+  /* display: flex; */
+  /* place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #111827; /* Match your chat app background */
+}
+
+/* HEADINGS - Adjust sizes for chat interface */
+h1 {
+  font-size: 1.5rem; /* Smaller for header */
+  line-height: 1.1;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 0 0 0.5rem 0;
+}
+
+/* BUTTONS - Style to match your chat theme */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #374151; /* Dark button background */
+  color: white;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  background-color: #4b5563;
+  border-color: #60a5fa;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 2px solid #60a5fa;
+  outline-offset: 2px;
+}
+
+/* INPUT FIELDS - Style to match chat theme */
+input[type="text"], 
+input[type="file"], 
+textarea {
+  background-color: #374151;
+  border: 1px solid #4b5563;
+  color: white;
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-family: inherit;
+}
+
+input[type="text"]:focus, 
+textarea:focus {
+  outline: none;
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.2);
+}
+
+/* CUSTOM UTILITIES */
+.text-shadow {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Remove light mode media query since we want consistent dark theme */
+/* You can add this back if you want light/dark mode switching */
